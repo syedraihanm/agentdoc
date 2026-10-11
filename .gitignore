@@ -1,0 +1,35 @@
+﻿# Environment Variables & Secrets
+.env
+*.env
+!.env.example
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Test & Coverage
+.pytest_cache/
+
+# Databases, Uploads & Large PDFs
+data/*.db
+data/*.sqlite3
+data/uploads/*
+!data/uploads/.gitkeep
+test.pdf
+
+# Traces
+traces/
+
+# Node / Frontend Build Artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
